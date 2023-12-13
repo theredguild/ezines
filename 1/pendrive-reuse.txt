@@ -1,0 +1,112 @@
+# What should you do with the pendrive?
+
+Suppose the conference is over, this pendrive is still in your hands - also that
+you were not selfish and didn't take it out of circulation before time,
+depriving the rest to enjoy the experience - and you now wonder what to do with
+it. Then, I suggest to repurpose it.
+
+Let's turn the flash drive into a key to open a password manager database, but
+with a few twists ;)
+
+'m going to use KeepassXC, which, unlike its alternatives, I personally like
+more - at least it hasn't been hacked as much in the past, hehe. But you know
+how it is: don't worry, just take care of it! So, do your own research!
+
+As alternatives, there are others like Bitwarden, Pass, Gopass, Padlock, and
+Qvault.
+
+Let's assume you don't use Auth0, Okta or any of those alternatives for more
+complex use cases, and you're just some folks looking to share secret keys. But
+you want to up your game.
+
+Somehow you share the db with all the offline keys, choose a master password and
+create a keyfile. The master password you choose to memorize, the DB you leave
+it somewhere accessible so it is not hard to access. The question now is, wtf
+should you do with the keyfile? That's exactly what I'm gonna answer here.
+
+Let's see first how to create a password database and protect it. 
+
+DISCLAIMER: If you're an advanced user who doesn't use UIs, this will probably
+bore you. But you will understand the idea and then be able to replicate it in
+console with a few commands. Hopefully you will learn something new :)
+
+### Password manager setup
+
+If you already use a password manager configured with a keyfile, skip this
+process.
+
+1. Install your desired Password manager from the list for your distro. I'm
+going to continue with KeepassXC from https://keepassxc.org/ for Linux.
+
+2. Create a new database with a name.
+
+3. If you feel like, check the advanced options to choose the encryption
+algorithm, the number of transformation rounds, and other parameters to generate
+more entropy. Investigate and configure at will. I will use the defaults.
+
+4. Choose a password to open the database, and in additional options add the
+need for a key or keyfile (which we will call notakeyfile for now). Generate it
+and save it.
+
+5. Before continuing, add some entries in the database, save the changes, close
+and try to open it with the keyfile and password you chose. If everything works
+fine, move on.
+
+Now we're going to use a tool to do on-the-fly encryption, to fool people about
+what we hide on the drive. For that we will create two volumes, a decoy and
+another one that will contain the actual keyfile.
+
+### Create the key-drive
+
+We will use **veracrypt.** It is a fork of a discontinued project -**truecrypt**
+that I loved - and one day it ended in a rather tragic way, you can look up its
+history on the internet. 
+
+1. Install veracrypt.
+2. Run the application. Select "create a new volume" and
+follow the steps in the wizard.
+
+    2.1. Select Encrypt a non-system partition/drive.
+
+    2.2. Select Hidden VeraCrypt volume.
+
+    2.3. Select the flash drive as the device.
+
+    2.4. Leave everything as default and continue. 
+
+    2.5. In Outer Volume Password put a password easy to remember and not
+    important, to protect the part that does not matter to us of the pendrive.
+    It's just to mislead outsiders.
+    
+    2.6. In Volume Format choose the one you like.
+
+    2.7. Now move the mouse to generate more entropy. Then click on Format.
+
+    2.8. Open the volume and save some files. Some that are not so important.
+
+    2.9. Continue with the creation of the hidden volume and here you will
+    repeat exactly the same steps above, with the size you want. Its maximum is
+    the one that remained available after the files that were added to mislead.
+    As we are not going to need much more other than for the keyfile, I suggest
+    to put only a few MB, so it is easier to go unnoticed. The password you put
+    in this one is going to be very important because it's for the partition you
+    are going to want to protect the most.
+
+3. With that we finish the creation of both volumes. Now the way to test them is
+to do the following. Inside truecrypt, select the device and put Mount.
+
+4. Now, and this is the most important part... the password you use to mount the
+partition will mount the corresponding partition with that password. That is, if
+you decide to mount by entering the weak password, you will mount the partition
+we created as decoy. And if you use the strong/important password, you will
+mount the smaller partition where you will store the keyfile.
+
+Having done this, not only outsiders have to break into a computer to steal the
+database, but also guess the password to the database, and also get the keyfile
+on a hidden partition on a flash drive, which in turn is protected with another
+password.
+
+You can add more layers of complexity, but doing this already puts you well
+above average.
+
+Written by: matta.

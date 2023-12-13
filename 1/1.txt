@@ -1,0 +1,179 @@
+                       ~ ˚⊱🪷⊰˚ The Red Guild ˚⊱🪷⊰˚ ~
+              _____ _          ___        _    ___      _ _    _
+             |_   _| |_  ___  | _ \___ __| |  / __|_  _(_) |__| |
+               | | | ' \/ -_) |   / -_) _` | | (_ | || | | / _` |
+               |_| |_||_\___| |_|_\___\__,_|  \___|\_,_|_|_\__,_|
+            
+                    Universe 0x00 (Genesis), World 0x01
+
+|=---------------------------------------------------------------------------=|
+|=---------------------------=[     Say hi    ]=-----------------------------=|
+|=-----------------------=[  hello@theredguild.org  ]=-----------------------=|
+|=---------------------------------------------------------------------------=|
+|=-----------------------=[   August 16-19, 2023  ]=-------------------------=|
+|=---------------------------------------------------------------------------=|
+
+===================================
+---[ memory[0x01] : awareness   ]---
+---[ memory[0x02] : whoarewe    ]---
+---[ memory[0x03] : reuse       ]---
+---[ memory[0x04] : tr4cK.mp3   ]---
+---[ memory[0x04] : wtfisthis   ]---
+====================================
+
+-<-------[ memory[0x01] : awareness       ]------------------->-
+
+Wait, before you keep reading, press play and leave it in the background:
+
+              █▀▀▀▀▀█ ▄▄█   ▄█▀ █▀▀▀▀▀█
+              █ ███ █ ▀▄    ▄▀  █ ███ █
+              █ ▀▀▀ █ █▀█ █▀ █▄ █ ▀▀▀ █
+              ▀▀▀▀▀▀▀ █ █ ▀ ▀▄▀ ▀▀▀▀▀▀▀
+              ▀█ ▀ ▄▀█▄▄  ██▀ █▄█▀▀ ▀▀▄
+              █▄▀██ ▀█ ▄▄ █▄▄  █▄▄▀  ▀▀
+              ▀▄▄█▄ ▀▀▄▄▀  ▀█ ▀▀██ █▄▀█
+              ▀▄█ ▄▄▀█  ██▀██ █ ▀▀█ ▀▄▀
+              ▀▀ ▀  ▀▀▄ ▀▄▄▄ ██▀▀▀██▀ ▄
+              █▀▀▀▀▀█ ▀▀ ▄█▀███ ▀ ██▄█▀
+              █ ███ █ ▄▀▀██▀  ▀▀▀███▄  
+              █ ▀▀▀ █ ▄▀█▄▀█ ▀▄█ ▀▀▄▀ ▀
+              ▀▀▀▀▀▀▀ ▀   ▀▀ ▀▀ ▀▀   ▀▀
+            https://youtu.be/4vf7s-bDp4k
+
+The Red Guild is running an IRL security awareness campaign at Ethereum
+Argentina.
+
+And if you're reading this, it's because you had the guts to plug in a random
+USB device you stumbled upon. You're quite brave we must admit.
+
+Why do this? Because it seems that just a few pay attention to their personal
+security in crypto events. It's like somehow they feel they're in a magic
+wonderland.
+
+We've seen people:
+- Navigating to random URLs from unknown QR codes.
+- Leaving unlocked devices unattended and not paying attention to them.
+- Using hardware wallets to sign transactions on the mainnet with their Metamask
+open and visible to others.
+- Copying and pasting private keys for everyone to see.
+- Talking about how much money they have and trade in crypto.
+- Showing off flashy and expensive clothes to impress others.
+- Having work calls in public places discussing sensitive information.
+- Connecting to any available WiFi without caution.
+- Indiscriminately sharing sensitive information with strangers who appear to be
+investors.
+
+WTF.
+
+Take care of yourself, your friends and your belongings. Public events can
+attrack some shady individuals.
+
+Don't bring your main crypto wallets. Don't bring (or use) your work devices
+without being extremely careful. Don't scan unknown QR codes without
+understanding the consequences. Don't leave your belongings unattended. Don't
+connect unknown USB devices to your own. Don't use any WiFi. Don't share all
+sensitive information with strangers you just met.
+
+Read more on how to stay safe --> https://theredguild.org/r/aware
+
+Now we need you to spread the word!
+
+Jump to memory[0x03] to learn how.
+
+-<-------[ memory[0x02] : whoarewe   ]------------------->-
+
+We're The Red Guild. An autonomous collective of security researchers, educators
+and advocates committed to safeguarding web3 applications.
+
+We believe in technologies that can help build more fair, open and transparent
+social coordination mechanisms. Such as Ethereum.
+
+Being so young, the legitimacy, credibility and reputation of these technologies
+gets hurt every time there's a hack in one of the apps that use them.
+
+So for the Ethereum ecosystem to succeed, we must strive to increase the
+resiliency of its application layer.
+
+Not only with thoughtful security research and responsible disclosures, but also
+with public articles, talks, videos, workshops, wargames, challenges and
+awareness campaigns.
+
+We have a sense of responsibility towards the well-being of those who contribute
+to web3's long-term game. We use our curiosity and purpose as the fuel to help
+keep them safe.
+
+Our goal? Transforming security research and advocacy into a public good
+initiative for the common good.
+
+The Red Guild plays another kind of game. Our work complements the private
+profit-driven efforts in the space.
+
+Go to https://theredguild.org to learn more about us and our work.
+
+-<-------[ memory[0x03] : reuse      ]------------------->-
+
+You can contribute with The Red Guild spreading the gospel of security
+awareness.
+
+1. If you want to proudly keep it for posterity, feel free to copy the contents
+of this drive, you won't probably be able to gather them online anytime soon.
+2. Remove it from your device, and either:
+  A. Drop it somewhere visible in the conference for somebody else to pick it
+  up. Let's see if we can get someone else to experience the same as you!
+  B. Find a member of The Red Guild and return it.
+  C. If the conference is already over, read ./pendrive-reuse-en.txt.
+3. Let's keep this a secret. Don't tell others until the end of the conference!
+
+-<-------[ memory[0x04] : tr4cK.mp3 ]------------------->-
+
+Composed and recorded by Agustín Diez between July 27 and 28, 2023, in the city
+of Tandil - Argentina, "Coast Guard" invites us on a journey through the waves
+of time. This musical piece is a fascinating cross between two worlds: chiptune
+and synthwave, taking us on a journey filled with nostalgia and adventure.
+
+Imagine navigating a digital ocean where the deep, spatial sounds of the '80s
+merge with playful square wave melodies typical of the video game consoles of
+that era. It's as if you were in a video game, but with a retro touch that
+evokes memories from the past that still resonate in our hearts.
+
+What makes it even more special is its authenticity. No virtual instruments
+(VST) were used in its creation. Every note and sound comes from real
+synthesizers, played with passion:
+
+Dave Smith Mopho Keyboard: With its rich and enveloping tones, it is the melodic
+heart of the piece. Dave Smith Evolver Keyboard: It adds textures and layers
+that enrich the melodies. Sequential Prophet Rev 2: With its polyphonic
+character in oscillations and modulations, it embraces us and takes us on a
+journey through space-time. Moog Matriarch: Its presence is unmistakable,
+providing depth and character to the bass. Roland TR9: Responsible for the
+pulsating rhythm that keeps us moving. Roland JV1010: Rounds off the
+orchestration with its clear and bright tones.
+
+So, get ready to embark on this sonic adventure with Coast Guard! :D
+
+More about Agustín: https://soundcloud.com/agustindxm
+https://www.instagram.com/agustindxm/
+
+Written by: AX.
+
+-<-------[ memory[0x05] : wtfisthis ]------------------->-
+
+This is an e-zine. And if you already knew that, it probably hit you with nostalgia. It's mainly an ode to the .:: Phrack Magazines ::. [1].
+
+Basically, they are a kind of digital 'magazine', coined mainly by the hacker
+community, to communicate their exploits, curiosities, philosophical stances,
+and more. Here are a few [2].
+
+This is how The Red Guild pays respect to all those hackers and curious people
+who came before us. These little things are a gesture, a humble contribution to
+keep whatever is left of that flame alive.
+
+We hope you enjoyed this little nod, and received at least part of the message
+;)
+
+Written by: The Red Guild.
+
+[1] http://phrack.org
+[2] http://web.textfiles.com/ezines
+
+|=[ EOF ]=---------------------------------------------------------------=|

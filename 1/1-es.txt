@@ -1,0 +1,187 @@
+                       ~ ˚⊱🪷⊰˚ The Red Guild ˚⊱🪷⊰˚ ~
+              _____ _          ___        _    ___      _ _    _
+             |_   _| |_  ___  | _ \___ __| |  / __|_  _(_) |__| |
+               | | | ' \/ -_) |   / -_) _` | | (_ | || | | / _` |
+               |_| |_||_\___| |_|_\___\__,_|  \___|\_,_|_|_\__,_|
+            
+                    Universe 0x00 (Genesis), World 0x01
+
+|=---------------------------------------------------------------------------=|
+|=---------------------------=[    Saludanos    ]=---------------------------=|
+|=-----------------------=[  hello@theredguild.org  ]=-----------------------=|
+|=---------------------------------------------------------------------------=|
+|=-----------------------=[   Agosto 16-19, 2023  ]=-------------------------=|
+|=---------------------------------------------------------------------------=|
+
+========================================
+---[ memory[0x01] : concientización ]---
+---[ memory[0x02] : quienessomos    ]---
+---[ memory[0x03] : reuso           ]---
+---[ memory[0x04] : t3mard0.mp3     ]---
+---[ memory[0x05] : kecarajosesesto ]---
+========================================
+
+-<-------[ memory[0x01] : concientización  ]------------------->-
+
+Pará, antes de arrancar a leer, dale play a esto de fondo:
+
+              █▀▀▀▀▀█ ▄▄█   ▄█▀ █▀▀▀▀▀█
+              █ ███ █ ▀▄    ▄▀  █ ███ █
+              █ ▀▀▀ █ █▀█ █▀ █▄ █ ▀▀▀ █
+              ▀▀▀▀▀▀▀ █ █ ▀ ▀▄▀ ▀▀▀▀▀▀▀
+              ▀█ ▀ ▄▀█▄▄  ██▀ █▄█▀▀ ▀▀▄
+              █▄▀██ ▀█ ▄▄ █▄▄  █▄▄▀  ▀▀
+              ▀▄▄█▄ ▀▀▄▄▀  ▀█ ▀▀██ █▄▀█
+              ▀▄█ ▄▄▀█  ██▀██ █ ▀▀█ ▀▄▀
+              ▀▀ ▀  ▀▀▄ ▀▄▄▄ ██▀▀▀██▀ ▄
+              █▀▀▀▀▀█ ▀▀ ▄█▀███ ▀ ██▄█▀
+              █ ███ █ ▄▀▀██▀  ▀▀▀███▄  
+              █ ▀▀▀ █ ▄▀█▄▀█ ▀▄█ ▀▀▄▀ ▀
+              ▀▀▀▀▀▀▀ ▀   ▀▀ ▀▀ ▀▀   ▀▀
+            https://youtu.be/4vf7s-bDp4k
+
+El equipo de The Red Guild está ejecutando una campaña de concientización de
+seguridad en Ethereum Argentina.
+
+Y si estás leyendo esto es porque te animaste a conectar un dispositivo USB que
+te encontraste tirado en el piso a tu computadora. Qué valiente.
+
+¿Por qué hacemos esto? Bueno, parece que sólo unxs pocxs prestan atención a su
+seguridad en eventos cripto. Como si de algun modo flashearan que están en un
+mundo de fantasía.
+
+Hemos visto gente:
+- Navegando a URLs random desde códigos QR desconocidos 
+- Dejando dispositivos desbloqueados, desatendidos y sin prestarles atención 
+- Usando billeteras de hardware firmando transacciones en mainnet con su 
+Metamask abierto y visible 
+- Copiando y pegando llaves privadas a vista de todxs
+- Hablando de cuanto $$ tienen y tradean en cripto 
+- Mostrando ropa llamativa y cara para aparentar 
+- Teniendo llamadas de trabajo en lugares públicos hablando de información
+sensible
+- Conectándose a cualquier WiFi disponible 
+- Compartiendo indiscriminadamente información sensible con extraños que aparentan
+ser inversores
+
+WTF.
+
+Tené cuidado! Cuidate vos, a tus amigxs y tus pertenencias. Los eventos públicos
+pueden estar llenos de gente con malas intenciones.
+
+No traigas tus billeteras de cripto. No traigas (o no uses) tus dispositivos de
+trabajo sin tener muchísimo cuidado. No escanees códigos QR desconocidos sin
+entender las consecuencias. No dejes tus pertenencias desatendidas. No conectes
+dispositivos USB desconocidos a los tuyos. No uses cualquier WiFi. No compartas
+toda información sensible con personas extrañas que recién conociste.
+
+Lee más de como mantenerte a salvo --> https://theredguild.org/r/aware
+
+Ahora necesitamos que expandas nuestro mensaje!
+
+Saltá a la memory[0x03] para apreder cómo.
+
+-<-------[ memory[0x02] : quienessomos   ]------------------->-
+
+Somos The Red Guild. Un colectivo autónomo de investigadores, educadores y
+divulgadores de seguridad, comprometidos con proteger aplicaciones de web3. Nos
+involucramos en las tecnologías que ayudan a construir mecanimos de coordinación
+social más equitativos, abiertos y transparentes. Como Ethereum.
+
+Cada vez que ocurre un hack en alguna aplicación, la legitimidad, credibilidad y
+reputación de TODO el ecosistema se ve afectada.
+
+Entonces para que Ethereum se sostenga a largo plazo, sí o sí tenemos que hacer
+la capa de aplicación MUCHO más robusta.
+
+No sólo con investigaciones de seguridad y responsible disclosures de
+vulnerabilidades, sino también con artículos públicos, charlas, videos,
+talleres, desafíos, y campañas de concientización (como esta).
+
+Tenemos un sentido de responsabilidad hacia aquellxs que contribuyen a que las
+tecologías de web3 crezcan cada día. Simplemente usamos nuestra curiosidad y
+compromiso para aportar nuestros granitos de arena a que estén más segurxs.
+
+¿Nuestro objetivo? Transformar la investigación de seguridad en una iniciativa
+para el bien común. Nos dedicamos a esto. Este es nuestro trabajo a tiempo
+completo.
+
+En The Red Guild jugamos otro tipo de juego. Nuestro trabajo complementa a
+aquellxs que sólo se dedican a comercializar productos y servicios privados de
+seguridad.
+
+Aprendé más de nosotrxs en https://theredguild.org.
+
+-<-------[ memory[0x03] : reuso      ]------------------->-
+
+Vos podés ayudar a The Red Guild a concientizar sobre seguridad! ¿Cómo?
+
+1. Si querés guardar este contenido de recuerdo, podés copiarlo directamente
+ porque probablemente no vayas a poder conseguir verlos de nuevo.
+2. Luego de desconectarlo de tu dispositivo, podés:
+  A. Dejarlo tirado en algún lugar visible de la conferencia, para que alguien
+  más lo levante. Jugá a lograr que alguien más viva la experiencia.
+  B. Encontrá a algún miembro del guild y devolvelo.
+  C. Si la conferencia ya terminó, leé ./pendrive-reuse-es.txt.
+3. Mantengamos esto como un secreto! No le digas a otras personas sobre este 
+mensaje hasta el final de la conferencia.
+
+-<-------[ memory[0x04] : t3mard0.mp3 ]------------------->-
+
+Compuesto y grabado por Agustín Diez, entre el 27 y 28 de Julio de 2023 en la
+ciudad de Tandil - Argentina, "Coast Guard" nos invita a un viaje por las olas
+del tiempo. Esta pieza musical es un cruce fascinante entre dos mundos: el
+chiptune y el synthwave, llevándonos a un viaje lleno de nostalgia y aventura.
+
+Imagínate navegando por un océano digital, donde los sonidos profundos y
+espaciales de los años 80 se fusionan con las melodías juguetonas de osciladores
+cuadrados, típicos de las consolas de videojuegos de esa era. Es como si
+estuvieras en un videojuego, pero con un toque retro que evoca recuerdos del
+pasado que aún resuenan en nuestros corazones.
+
+Y lo que hace aún más especial es su autenticidad. No se utilizaron instrumentos
+virtuales (vst) en su creación. Cada nota y sonido proviene de sintetizadores
+reales, interpretados con pasión:
+
+- Dave Smith Mopho Keyboard: Con sus tonos ricos y envolventes, es el corazón
+melódico de la pieza. 
+- Dave Smith Evolver Keyboard: Aporta texturas y capas que enriquecen las 
+  melodias. 
+- Sequential Prophet Rev 2: Con sus caracter polifonico en oscilaciones y 
+  modulaciones, nos abraza y lleva a un viaje por el espacio-tiempo. 
+- Moog Matriarch: Su presencia es inconfundible, aportando profundidad y 
+  carácter en el bajo. 
+- Roland TR9: Responsable del ritmo pulsante que nos mantiene en movimiento. 
+- Roland JV1010: Finaliza la orquestación con sus tonos claros y brillantes.
+
+Así que, ¡prepárate para zarpar en esta aventura sónica con Coast Guard! :D
+
+más sobre Agustín:
+https://soundcloud.com/agustindxm
+https://www.instagram.com/agustindxm/
+
+Escrito por: AX.
+
+-<-------[ memory[0x05] : ke carajos es esto? ]------------------->-
+
+Esto es una e-zine. Y si ya lo sabías probablemente te haya pegado en la
+nostalgia. Principalmente una oda las .:: Phrack Magazines ::. [1]. 
+
+Son básicamente una especie de 'revista' digital, acuñado principalmente por la
+comunidad hacker, para comunicar sus hazañas, curiosidades, posturas filosóficas
+y más. Acá hay unas cuantas [2].
+
+Así es como The Red Guild da sus respetos a todxs aquellxs hackers y curiosxs
+que vineron antes que nosotros. Estas pequeñas cosas son un mimo, una humilde
+contribución para mantener lo que quede de esa llama viva.
+
+Esperamos que hayas disfrutado de este pequeño guiño, y hayas recibido al menos
+parte del mensaje ;)
+
+Escrito por: The Red Guild.
+
+[1] http://phrack.org
+[2] http://web.textfiles.com/ezines
+
+|=[ EOF ]=---------------------------------------------------------------=|
+

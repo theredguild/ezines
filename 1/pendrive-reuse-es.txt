@@ -1,0 +1,113 @@
+# Qué hacer con el pendrive?
+
+Supongamos que terminó la conferencia, afortunadamente este pendrive aún está en
+tus manos —también que no fuiste egoísta y lo sacaste antes de tiempo de
+circulación privando al resto de vivir esta experiencia— y te preguntas qué
+hacer con él. Entonces ahí sí, a vos, te propongo darle un uso diferente.
+
+Vamos a convertir el pendrive en una llave para abrir una base de datos de un
+password manager, pero con unos twists ;)
+
+Voy a usar KeepassXC que a diferencia de sus alternativas, a mí personalmente me
+gusta más —al menos no lo reventaron tanto en el pasado je— pero ya saben cómo
+es esto: no hay que preocuparse sino ocuparse! Así que do your own research!
+
+Como alternativas existen otros como: Bitwarden, Pass, Gopass, Padlock y Qvault.
+
+Supongamos que no usás Auth0, Okta o alguna de esas opciones que pintan para
+casos de usos más complejos, y son sólo un par de wachines compartiendo unas
+claves pero quieren uppear su game. De alguna forma se comparten la db con todas
+las claves offline, eligen una master password y crean un keyfile. La master
+password eligen memorizarla o vincularla a algún método de elección, la db la
+dejan en algún lugar accesible para que no sea un caos acceder a ella. La
+pregunta ahora es, qué carajo hacen con el keyfile? Exactamente eso es lo que
+vengo a responderte acá.
+
+Veamos primero como crear una base de datos de passwords y protegerla. 
+
+DISCLAIMER: Si sos un usuario avanzado o no usás interfaz gráfica, posiblemente
+esto te embole. Pero vas a entender la idea y luego poder replicarla en consola
+con pocos comandos. Ojalá aprendas algo nuevo :)
+
+### Setup del password manager
+
+Si ya usás un password manager configurado con un keyfile salteá este proceso.
+
+1. Instalen el gestor que deseen para su distro, yo voy a continuar con
+KeepassXC desde https://keepassxc.org/ para Linux.
+
+2. Crear una nueva base de datos con algun nombre. Para este ejemplo la llamaré
+“db wachines”.
+
+3. Si querés, revisar las opciones avanzadas para elegir el algoritmo de
+cifrado, la cantidad de rondas de transformación, y otros parámetros para
+generar más entropía. Investiguen y configuren a piacere. Yo usaré todo por
+defecto.
+
+4. Elegir una contraseña para abrir la base de datos, y en opciones adicionales
+agregar la necesidad de una llave o keyfile (al que llamaremos notakeyfile por
+ahora). Generarla y guardarla por ahí.
+
+5. Antes de continuar, agregar algunas entradas en la base de datos, guardar los
+cambios, cerrar e intentar abrirla con el keyfile y la password que eligieron.
+Si todo funciona joya seguimos.
+
+Ahora vamos a utilizar una tool para hacer encriptación on-the-fly, para engañar
+a la gente respecto a qué escondemos en el pendrive. Para eso crearemos dos
+volúmenes, uno de decoy y otro que contendrá el keyfile.
+
+### Crear el key-drive
+
+Utilizaremos **veracrypt.** Es un fork de un proyecto descontinuado
+—**truecrypt** que me encantaba— y un día terminó de una manera bastante
+trágica, pueden buscar su historia en internet. 
+
+1. Instalar veracrypt.
+
+2. Ejecutar la aplicación Seleccionar “crear un nuevo
+volumen” y seguir los pasos del wizard.
+    2.1. Seleccionar Encrypt a non-system partition/drive.
+    
+    2.2. Seleccionar Hidden VeraCrypt volume.
+    
+    2.3. Seleccionan como el device al pendrive.
+
+    2.4. Dejar todo por defecto y continúen.
+
+    2.5. En Outer Volume Password poner una password fácil de recordar y no
+    importante, para proteger la parte que no nos importa del pendrive. Es para
+    despistar.
+    
+    2.6. En Volume Format elegir el que más les guste.
+    
+    2.7. Ahora mover el mouse para generar mayor entropía de la config. Luego
+    darle a Format.
+    
+    2.8. Abrir el volúmen y guardar archivos no tan importantes para despistar.
+    
+    2.9. Continuar con la creación del volumen escondido y aquí se repetirán
+    exactamente los mismos pasos anteriores, con el tamaño que deseen. Su máximo
+    es el que quedó disponible luego de los archivos que agregaron para
+    despistar. Como no vamos a necesitar mucho más que para el keyfile, aconsejo
+    poner sólo unos pocos MB, así es más fácil pasar desapercibido. La
+    contraseña que pongan en este va a ser muy importante porque es la partición
+    que más van a querer proteger.
+
+3. Con eso damos por finalizada la creación de ambos volúmenes. Ahora la forma
+de probarlos es haciendo lo siguiente. Dentro de truecrypt, seleccionen el
+dispositivo y pongan montar.
+
+4. Ahora, y esta es la parte más importante… la contraseña que utilicen para
+montar la partición montará la partición correspondiente con esa contraseña. Es
+decir, si deciden montar introduciendo la contraseña falopa, van a montar la
+partición que creamos como decoy. Y si utilizan la contraseña fuerte/importante,
+montarán la partición más pequeña donde guardarán el keyfile notakeyfile.
+
+Habiendo hecho esto, no sólo tienen que ingresar en sus computadoras para
+robarles la base de datos, sino que tienen que adivinar la contraseña de la base
+de datos y también obtener el keyfile que lo tienen en una partición oculta en
+un pendrive que a su vez está protegido con otra contraseña. Y así, se pueden
+agregar niveles de complejidad aún más engorrosos, pero ya haciendo esto están
+más que arriba de la media.
+
+Escrito por: matta.
